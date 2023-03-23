@@ -10,7 +10,8 @@ body > * {
 }
 
 .header {
-  background-color: #8399A8;
+  background-color: #FC8585;
+  color: rgb(61, 16, 16);
   border-radius: 10px;
   font-family: 'Permanent Marker', cursive;
   /*border: 1px black solid;*/
@@ -29,7 +30,7 @@ body > * {
     float: right;
     color: white;
     font-size: large;
-    background-color: #357cac;
+    background-color: #ad3232;
     width: 100px;
     height: 50px;
     border-radius: 20px;
@@ -42,7 +43,7 @@ body > * {
 
 .search {
     display: flex;
-    background-color: #DBC09E;
+    background-color: #85CBD9;
     border-radius: 10px;
     align-items: center;
     /*border: 1px black solid;*/
@@ -67,7 +68,7 @@ body > * {
 }
 
 .navbar {
-  background-color: #A3CCBE;
+  background-color: #FFC86D;
   border-radius: 10px;
   /*border: 1px black solid;*/
   box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
@@ -84,7 +85,7 @@ body > * {
 }
 
 .main {
-  background: #E6DFAF;
+  background: #FBDBA2;
   border-radius: 10px;
   /*border: 1px black solid;*/
   box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
@@ -96,7 +97,7 @@ body > * {
 }
 
 .sidebar {
-  background: #BF9D9D;
+  background: #F6EADB;
   border-radius: 10px;
   /*border: 1px black solid;*/
   box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
