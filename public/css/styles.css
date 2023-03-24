@@ -10,8 +10,12 @@ body > * {
 }
 
 .header {
-  background-color: skyblue;
-  border: 0.5rem black solid;
+  background-color: #FC8585;
+  color: rgb(61, 16, 16);
+  border-radius: 10px;
+  font-family: 'Permanent Marker', cursive;
+  /*border: 1px black solid;*/
+  box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -22,21 +26,52 @@ body > * {
   padding: 6px;
 }
 
+.logout {
+    float: right;
+    color: white;
+    font-size: large;
+    background-color: #ad3232;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: #6e96b1;
+  }
 
-.header input {
+  .logout:hover {
+    background-color: black;
+  }
+
+.search {
+    display: flex;
+    background-color: #85CBD9;
+    border-radius: 10px;
+    align-items: center;
+    /*border: 1px black solid;*/
+    box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
+    justify-content: center;
+  }
+
+.search p {
+  font-size: large;
+  margin-right: 20px;
+}
+
+.search input {
   padding: 6px;
   margin-top: 8px;
   margin-bottom: 8px;
-  height: 30px;
+  height: 15px;
   width: 300px;
   font-size: 17px;
-  border: black solid;
   border-radius: 25px;
+  border: #6e96b1;
 }
 
 .navbar {
-  background-color: pink;
-  border: 0.5rem black solid;
+  background-color: #FFC86D;
+  border-radius: 10px;
+  /*border: 1px black solid;*/
+  box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
 }
 
 .navbar ul {
@@ -50,8 +85,10 @@ body > * {
 }
 
 .main {
-  background: lightgreen;
-  border: 0.5rem black solid;
+  background: #FBDBA2;
+  border-radius: 10px;
+  /*border: 1px black solid;*/
+  box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
 }
 
 .main img {
@@ -60,13 +97,10 @@ body > * {
 }
 
 .sidebar {
-  background: lightyellow;
-  border: 0.5rem black solid;
-}
-
-.footer {
-  background-color: lavender;
-  border: 0.5rem black solid;
+  background: #F6EADB;
+  border-radius: 10px;
+  /*border: 1px black solid;*/
+  box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
 }
 
 @media screen and (min-width: 100ch) {
@@ -93,7 +127,7 @@ body > * {
 
   }
 
-  .footer {
+  .search {
     grid-column: 1/-1;
   }
 }
