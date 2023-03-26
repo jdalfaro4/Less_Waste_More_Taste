@@ -109,6 +109,29 @@ button:hover {
   height: auto;
 }
 
+.main_login {
+  background-color: #FC8585;
+  border-radius: 20px;
+  padding: 50px 0;
+  height: 200px;
+  width: 100%;
+  place-content: center;
+  text-align: center;
+  
+}
+
+label {
+  font-size: large;
+  margin-right: 20px;
+}
+
+div.usname {
+  margin: 10px;
+}
+
+div.pword {
+  margin: 10px;
+}
 
 
 .sidebar {
@@ -118,7 +141,7 @@ button:hover {
   box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
 }
 
-@media screen and (min-width: 100ch) {
+/* @media screen and (min-width: 100ch) {
   body {
     display: grid;
     grid-template-columns: 1fr minmax(15ch, 30%);
@@ -145,7 +168,7 @@ button:hover {
   .search {
     grid-column: 1/-1;
   }
-}
+}*/
 
 @media screen and (min-width: 140ch) {
   body {
