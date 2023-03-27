@@ -24,6 +24,11 @@ body > * {
 
 .header h1 {
   padding: 6px;
+  font-size: xx-large;
+}
+
+nav {
+    margin: .5rem;
 }
 
 .logout {
@@ -148,10 +153,7 @@ div.pword {
   box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
 }
 
-@media screen and (min-width: 100ch) {
-.challenge-title {
-        font-size: small;
-      }   
+@media screen and (min-width: 100px) { 
 /*body {
     display: grid;
     grid-template-columns: 1fr minmax(15ch, 30%);
@@ -183,10 +185,6 @@ div.pword {
 @media screen and (min-width: 140ch) {
   body {
     grid-template-columns: minmax(15ch, 20%) 1fr minmax(15ch, 20%);
-  }
-
-.challenge-title {
-    font-size: small;
   }
 
   .navbar {
