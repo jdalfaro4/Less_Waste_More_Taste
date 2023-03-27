@@ -56,7 +56,7 @@ body > * {
   margin-right: 20px;
 }
 
-.search input {
+input {
   padding: 6px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -84,6 +84,19 @@ body > * {
   list-style-type: none;
 }
 
+button {
+  border: none;
+  border-radius: 20px;
+  background-color: #ff4d4d;
+  color: white;
+  width: 80px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: black;
+}
+
 .main {
   background: #FBDBA2;
   border-radius: 10px;
@@ -95,6 +108,8 @@ body > * {
   width: 100%;
   height: auto;
 }
+
+
 
 .sidebar {
   background: #F6EADB;
