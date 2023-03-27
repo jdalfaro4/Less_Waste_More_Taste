@@ -12,3 +12,5 @@ User.hasMany(SavedUserRecipes, {
 
 
 module.exports = { User, SavedUserRecipes };
+
+
