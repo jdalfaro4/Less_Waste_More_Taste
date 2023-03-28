@@ -33,3 +33,4 @@ SavedUserRecipes.init(
 );
 
 module.exports = SavedUserRecipes;
+
