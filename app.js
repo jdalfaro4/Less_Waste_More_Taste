@@ -1,4 +1,6 @@
-const RecipeAPI = require('./recipe')
+const RapidAPI_KEY = require('./controllers')
+
+
 
 const asyncApiCall = async () => {
     const response = await RecipeAPI.getCompatibility('/')
