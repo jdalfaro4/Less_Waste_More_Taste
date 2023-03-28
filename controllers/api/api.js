@@ -4,7 +4,7 @@ const options = {
   method: 'GET',
   url: 'https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/findByIngredients',
   params: {
-    ingredients: 'apples,flour,sugar',
+    ingredients: 'noodles, chicken, tomato',
     number: '5',
     ignorePantry: 'true',
     ranking: '1'
@@ -20,3 +20,4 @@ axios.request(options).then(function (response) {
 }).catch(function (error) {
 	console.error(error);
 });
+
