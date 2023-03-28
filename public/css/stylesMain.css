@@ -31,21 +31,6 @@ nav {
     margin: .5rem;
 }
 
-.logout {
-    float: right;
-    color: white;
-    font-size: large;
-    background-color: #ad3232;
-    width: 100px;
-    height: 50px;
-    border-radius: 20px;
-    border: #6e96b1;
-  }
-
-  .logout:hover {
-    background-color: black;
-  }
-
 .search {
     display: flex;
     background-color: #85CBD9;
@@ -71,6 +56,11 @@ input {
   border-radius: 25px;
   border: #6e96b1;
   box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
+}
+
+.email {
+  padding-right: 30px;
+  padding-left: 60px;
 }
 
 .navbar {
@@ -126,6 +116,22 @@ button:hover {
   place-content: center;
   text-align: center;
   box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
+}
+
+/* Landing Page CSS */
+.landing-header {
+  font-size: 50px;
+}
+
+.landing-text {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 10px;
+  font-size: larger;
+}
+
+.begin button {
+  width: 200px;
 }
 
 label {
