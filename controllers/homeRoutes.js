@@ -44,4 +44,11 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+router.get('/signup', (req, res) => {
+  // If the user is already logged in, redirect the request to another route
+
+
+  res.render('signup');
+});
+
 module.exports = router;
