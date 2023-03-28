@@ -24,6 +24,11 @@ body > * {
 
 .header h1 {
   padding: 6px;
+  font-size: xx-large;
+}
+
+nav {
+    margin: .5rem;
 }
 
 .logout {
@@ -65,6 +70,7 @@ input {
   font-size: 17px;
   border-radius: 25px;
   border: #6e96b1;
+  box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
 }
 
 .navbar {
@@ -87,14 +93,16 @@ input {
 button {
   border: none;
   border-radius: 20px;
-  background-color: #ff4d4d;
-  color: white;
+  background-color: #f5ef4e;
   width: 80px;
   height: 50px;
+  box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
+  font-size: medium;
 }
 
 button:hover {
   background-color: black;
+  color: white;
 }
 
 .main {
@@ -109,7 +117,34 @@ button:hover {
   height: auto;
 }
 
+.main_login {
+  background-color: #FC8585;
+  border-radius: 20px;
+  padding: 50px 0;
+  height: 300px;
+  width: 100%;
+  place-content: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
+}
 
+label {
+  font-size: larger;
+  margin-right: 20px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+div.usname {
+  margin: 10px;
+}
+
+div.pword {
+  margin: 10px;
+}
+
+.register {
+    font-size: large;
+}
 
 .sidebar {
   background: #F6EADB;
@@ -118,8 +153,8 @@ button:hover {
   box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
 }
 
-@media screen and (min-width: 100ch) {
-  body {
+@media screen and (min-width: 100px) { 
+/*body {
     display: grid;
     grid-template-columns: 1fr minmax(15ch, 30%);
     grid-template-rows: auto auto 1fr auto;
@@ -144,7 +179,7 @@ button:hover {
 
   .search {
     grid-column: 1/-1;
-  }
+  }*/
 }
 
 @media screen and (min-width: 140ch) {
