@@ -8,15 +8,10 @@ const searchInput = document.querySelector("#search-input");
 const options = {
   method: 'GET',
   url: '/api/recipes/findByIngredients',
-  params: {
-    ingredients: 'beef, ramen, tortillas',
-    number: '5',
-    ignorePantry: 'true',
-    ranking: '1'
-  },
-  headers: {
-  }
+params: req.query 
 };
+
+
 
 
 searchButton.addEventListener("click", function() {

@@ -68,7 +68,7 @@ router.get('/recipes/findByIngredients', withAuth, async (req, res) => {
         }
 		);
 // build this out
-    res.render('recipe'
+    res.render('recipe',
     {
       ...recipe.data,
       logged_in: true
