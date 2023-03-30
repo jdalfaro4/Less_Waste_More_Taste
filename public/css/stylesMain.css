@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: .5rem;
+  background-color: #E8E4E0;
 }
 
 body > * {
@@ -10,8 +11,8 @@ body > * {
 }
 
 .header {
-  background-color: #FC8585;
-  color: rgb(61, 16, 16);
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
   border-radius: 10px;
   font-family: 'Permanent Marker', cursive;
   /*border: 1px black solid;*/
@@ -83,7 +84,7 @@ input {
 button {
   border: none;
   border-radius: 20px;
-  background-color: #f5ef4e;
+  background-color: #E8E4E0;
   width: 80px;
   height: 50px;
   box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
@@ -108,7 +109,7 @@ button:hover {
 }
 
 .main_login {
-  background-color: #FC8585;
+  background-color: white;
   border-radius: 20px;
   padding: 50px 0;
   height: 300px;
@@ -157,6 +158,28 @@ div.pword {
   border-radius: 10px;
   /*border: 1px black solid;*/
   box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
+}
+
+.recipe {
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+  background: #F6EADB;
+  border-radius: 10px;
+  /*border: 1px black solid;*/
+  box-shadow: 0 0 10px rgba(6, 2, 33, 0.6);
+}
+
+.recipe .picture {
+  margin: 10px;
+}
+
+.recipe .recipe-name {
+  margin: 10px;
+}
+
+.recipe .recipe-description {
+  margin: 10px;
 }
 
 @media screen and (min-width: 100px) { 
