@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: .5rem;
+  background-color: #E8E4E0;
 }
 
 body > * {
@@ -10,8 +11,8 @@ body > * {
 }
 
 .header {
-  background-color: #FC8585;
-  color: rgb(61, 16, 16);
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
   border-radius: 10px;
   font-family: 'Permanent Marker', cursive;
   /*border: 1px black solid;*/
@@ -28,9 +29,9 @@ body > * {
 
 .logout {
     float: right;
-    color: white;
+    color: black;
     font-size: large;
-    background-color: #ad3232;
+    background-color: #E8E4E0;
     width: 100px;
     height: 50px;
     border-radius: 20px;
