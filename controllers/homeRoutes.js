@@ -1,3 +1,6 @@
+const axios = require("axios");
+require("dotenv").config();
+
 const router = require('express').Router();
 const { SavedUserRecipes, User } = require('../models');
 const withAuth = require('../utils/auth');
@@ -47,6 +50,36 @@ router.get('/login', (req, res) => {
 
   res.render('login');
 });
+
+
+router.get('/recipes/findByIngredients', withAuth, async (req, res) => {
+  try {
+    console.log(req.body);
+    console.log(req.query);
+    console.log('using apikey:' , process.env.RAPIDAPI_KEY);
+   const recipe = await axios.get(
+			`https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/findByIngredients`,
+			{
+				headers: {
+					'x-rapidapi-host': 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com',
+					'x-rapidapi-key': process.env.RAPIDAPI_KEY
+				},
+        params: req.query 
+        }
+		);
+// build this out
+    res.render('recipe',
+    {
+      ...recipe.data,
+      logged_in: true
+    });
+    
+  } catch (err) {
+    console.log(err)
+    res.status(500).json(err);
+  }
+});
+
 
 router.get('/signup', (req, res) => {
   // If the user is already logged in, redirect the request to another route
