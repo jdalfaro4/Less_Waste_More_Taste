@@ -20,6 +20,8 @@ const signupFormHandler = async (event) => {
     }
   };
 
+
+  
   document
   .querySelector('#regBtn')
   .addEventListener('click', signupFormHandler);
