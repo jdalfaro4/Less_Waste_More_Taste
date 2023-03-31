@@ -68,11 +68,13 @@ router.get('/recipes/findByIngredients', withAuth, async (req, res) => {
         }
 		);
 // build this out
-    res.render('recipe',
-    {
-      ...recipe.data,
-      logged_in: true
-    });
+const inputs = {
+  recipes: recipe.data,
+  logged_in: true
+}
+console.log(inputs)
+    res.render('recipe', inputs);
+  
     
   } catch (err) {
     console.log(err)

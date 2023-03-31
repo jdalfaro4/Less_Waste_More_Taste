@@ -1,13 +1,19 @@
-{{#each recipe}}
+{{#each recipes as |recipe|}}
     <div class="recipe">
         <div class="picture">
-            <img src="https://placehold.co/200x200" alt="Image of recipe">
+            <img src="{{recipe.image}}" alt="Image of recipe">
         </div>
             <div class="recipe-name">
                 <p>Recipe Name</p>
+                <p>{{recipe.title}}</p>
             </div>
             <div class="recipe-description">
-                <p>Description</p>
+                <p>Used Ingredients</p>
+                <p>{{recipe.usedIngredients}}</p>
+            </div>
+                <div class="recipe-description">
+                <p>Missed Ingredients</p>
+                <p>{{recipe.missedIngredients}}</p>
             </div>
         </div>
 {{/each}}
