@@ -23,8 +23,11 @@ This app follows the MVC paradigm, uses Handlebars.js as the templating language
 
 ## Screenshot  
 
-![Screenshot](putscreeshothere)
+<img width="1615" alt="Screenshot 2023-03-30 at 9 23 28 PM" src="https://user-images.githubusercontent.com/118412985/229007155-ba73b5e5-3a41-4742-9d76-8c7a5d4cbf50.png">
 
+<img width="1616" alt="Screenshot 2023-03-30 at 9 23 58 PM" src="https://user-images.githubusercontent.com/118412985/229007216-fb3bc227-6e03-42a7-aaf9-ef04e6f09a39.png">
+
+<img width="1614" alt="Screenshot 2023-03-30 at 9 24 23 PM" src="https://user-images.githubusercontent.com/118412985/229007253-b4d10abb-dfe0-4bc4-a33b-9e1f2544d122.png">
 
 ## Installation
 
