@@ -60,7 +60,7 @@ searchButton.addEventListener("click", function() {
   //       return { title, image, missingIngredients };
   //     });
 
-      document.location.assign(`http://localhost:3001/recipes/findByIngredients${query}&number=5&ignorePantry=true`)
+      document.location.assign(`/recipes/findByIngredients${query}&number=5&ignorePantry=true`)
 
       console.log(recipes)
     })
