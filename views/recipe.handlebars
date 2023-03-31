@@ -9,11 +9,15 @@
             </div>
             <div class="recipe-description">
                 <p>Used Ingredients</p>
-                <p>{{recipe.usedIngredients}}</p>
+                {{#each this.usedIngredients as |usedIngredient|}}
+                <p>{{usedIngredient.name}}</p>
+                {{/each}}
             </div>
                 <div class="recipe-description">
                 <p>Missed Ingredients</p>
-                <p>{{recipe.missedIngredients}}</p>
+                {{#each this.missedIngredients as |missedIngredient|}}
+                <p>{{missedIngredient.name}}</p>
+                {{/each}}
             </div>
         </div>
 {{/each}}

@@ -72,7 +72,7 @@ const inputs = {
   recipes: recipe.data,
   logged_in: true
 }
-console.log(inputs)
+console.log(JSON.stringify(inputs))
     res.render('recipe', inputs);
   
     
