@@ -13,7 +13,7 @@
 
 ## Link  
 
-[Click here](link) to view "Less Waste, More Taste" application deployed on Heroku.   
+[Click here](https://less-waste-more-taste7.herokuapp.com/) to view "Less Waste, More Taste" application deployed on Heroku.   
 
 ## Description  
 
